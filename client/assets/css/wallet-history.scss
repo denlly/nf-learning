@@ -1,0 +1,35 @@
+.positiveNum{
+    color: #7db29f;
+}
+.negativeNum{
+    color: #e57b7b;
+}
+.pending,.waiting{
+    color: #9490a5;
+}
+.complete{
+    color: #383155;
+}
+.rejected{
+    color: #ff5a5f;
+}
+
+.txid{
+    padding-left: 10px;
+}
+a:link {
+    color:#00c6bc;
+    text-decoration:none;
+}
+a:visited {
+    color:#00c6bc;
+    text-decoration:none;
+}
+a:hover {
+    color:#00c6bc;
+    text-decoration:none;
+}
+a:active {
+    color:#00c6bc;
+    text-decoration:none;
+}

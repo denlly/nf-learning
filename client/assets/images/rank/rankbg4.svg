@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="222" height="312" viewBox="0 0 222 312">
+    <defs>
+        <rect id="b" width="210" height="300" rx="4"/>
+        <filter id="a" width="110%" height="107%" x="-5%" y="-2.8%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+        <linearGradient id="d" x1="0%" x2="96.989%" y1="1.501%" y2="97.151%">
+            <stop offset="0%" stop-color="#5C7A8E"/>
+            <stop offset="100%" stop-color="#34A9C1"/>
+        </linearGradient>
+        <rect id="c" width="210" height="300" rx="4"/>
+        <linearGradient id="f" x1="2.208%" x2="93.343%" y1="8.104%" y2="93.725%">
+            <stop offset="0%" stop-color="#89D5D6"/>
+            <stop offset="100%" stop-color="#5ACDE5"/>
+        </linearGradient>
+        <linearGradient id="g" x1="10.217%" x2="93.343%" y1="10.302%" y2="93.725%">
+            <stop offset="0%" stop-color="#7CF7F8"/>
+            <stop offset="100%" stop-color="#47828F"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(6 4)">
+        <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+        <use fill="#FFF" xlink:href="#b"/>
+        <rect width="210.5" height="300.5" x="-.25" y="-.25" stroke="#000" stroke-opacity=".2" stroke-width=".5" rx="4"/>
+        <mask id="e" fill="#fff">
+            <use xlink:href="#c"/>
+        </mask>
+        <use fill="url(#d)" xlink:href="#c"/>
+        <g mask="url(#e)" opacity=".4">
+            <path fill="url(#f)" d="M210 0v300H0C26.015 182.333 96.015 82.333 210 0z" transform="translate(0 150)"/>
+            <path fill="url(#g)" d="M210 0v300H0C26.015 182.333 96.015 82.333 210 0z" transform="matrix(-1 0 0 1 210 150)"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="85px" viewBox="0 0 86 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="首页" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-815.000000, -1744.000000)">
+        <g id="Group-9" transform="translate(870.000000, 1774.500000) rotate(-315.000000) translate(-870.000000, -1774.500000) translate(810.000000, 1757.000000)">
+            <polygon id="Rectangle-10" fill="#464646" points="34.3431458 0.058874503 85.0710678 0.058874503 119.213203 34.2010101 0.201010127 34.2010101"></polygon>
+            <text id="已售罄" font-family="PingFangSC-Semibold, PingFang SC" font-size="14" font-weight="500" fill="#FFFFFF">
+                <tspan x="39.4142136" y="21.4142136">已售罄</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0.797193878%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#2C2934" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#2C2934" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0.797193878%" id="linearGradient-2">
+            <stop stop-color="#2C2934" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#2C2934" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="97.1885684%" x2="50%" y2="2.49541564%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0.797193878%" x2="50%" y2="97.1885684%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-60.000000, -60.000000)">
+        <g id="Group-4" transform="translate(60.000000, 60.000000)">
+            <path d="M8.18181818,30 L0,30 L0,22.5 L8.18181818,22.5 L8.18181818,30 Z M12.2727273,30 L12.2727273,22.5 L18.4090909,22.5 C20.6684376,22.5 22.5,20.6684376 22.5,18.4090909 L22.5,12.2727273 L30,12.2727273 L30,30 L12.2727273,30 Z M8.18181818,12.2727273 L8.18181818,18.4090909 L0,18.4090909 L0,0 L18.4090909,0 L18.4090909,8.18181818 L12.2727273,8.18181818 C10.0133806,8.18181818 8.18181818,10.0133806 8.18181818,12.2727273 Z M12.2727273,12.2727273 L18.4090909,12.2727273 L18.4090909,18.4090909 L12.2727273,18.4090909 L12.2727273,12.2727273 Z M30,8.18181818 L22.5,8.18181818 L22.5,1.38555833e-13 L30,0 L30,8.18181818 Z" id="Combined-Shape-Copy-5" fill="#FFFFFF" transform="translate(15.000000, 15.000000) rotate(-360.000000) translate(-15.000000, -15.000000) "></path>
+            <rect id="Rectangle-5-Copy-5" fill="url(#linearGradient-1)" x="18.4090909" y="22.5" width="4.09090909" height="7.5"></rect>
+            <rect id="Rectangle-5-Copy-6" fill="url(#linearGradient-2)" x="8.18181818" y="0" width="4.09090909" height="7.5"></rect>
+            <rect id="Rectangle-5-Copy-7" fill="url(#linearGradient-3)" transform="translate(15.340909, 20.454545) rotate(-90.000000) translate(-15.340909, -20.454545) " x="13.2954545" y="17.3863636" width="4.09090909" height="6.13636364"></rect>
+            <rect id="Rectangle-5-Copy-8" fill="url(#linearGradient-4)" transform="translate(15.340909, 10.227273) rotate(-90.000000) translate(-15.340909, -10.227273) " x="13.2954545" y="7.15909091" width="4.09090909" height="6.13636364"></rect>
+        </g>
+    </g>
+</svg>

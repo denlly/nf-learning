@@ -1,0 +1,569 @@
+{
+    "name": "English",
+    "links": {
+        "home": "Home",
+        "pricing": "Pricing",
+        "datacenter": "Data Center",
+        "blog": "Blog",
+        "aboutus": "About Us",
+        "service": "Help",
+        "dashboard": "Dashboard",
+        "wallet": "Wallet",
+        "myorders": "My Orders",
+        "affiliate": "Referral",
+        "setting": "Setting",
+        "buyhp": "Buy Hashpower",
+        "notifications": "Notification",
+        "contact": "Contact Us",
+        "login": "Login",
+        "signup": "Signup",
+        "rp": "Reset Password"
+    },
+    "gen": {
+        "coin": {
+            "Bitcoin": "Bitcoin",
+            "Ethereum": "Ethereum",
+            "Litecoin": "Litecoin",
+            "Dash": "Dash",
+            "Monero": "Monero",
+            "Zcash": "Zcash"
+        },
+        "code": {
+            "Bitcoin": "BTC",
+            "Ethereum": "ETH",
+            "Litecoin": "LTC",
+            "Dash": "DASH",
+            "Monero": "XMR",
+            "Zcash": "ZEC"
+        },
+        "noresult": "No data so far"
+    },
+    "navbar": {
+        "home": "Home",
+        "product": "Pricing",
+        "datacenter": "Data Center",
+        "blog": "Blog",
+        "aboutus": "About Us",
+        "service": "Help",
+        "btn": {
+            "dashboard": "DASHBOARD",
+            "sulg": "SIGNUP / LOGIN"
+        },
+        "dashboard": "Dashboard",
+        "wallet": "Wallet",
+        "myorders": "My Orders",
+        "affiliate": "Referral",
+        "settings": "Settings",
+        "buyhashpower": "Buy Hashpower"
+    },
+    "hdr": {
+        "t1": "people are mining here",
+        "h1": "START MINING TODAY!",
+        "btn": "START MINING",
+        "t2": "Your miners are ready. <br/>Set up your account now and you can start to earn your first coins!",
+        "t3": "Hash.Pro Datacenter",
+        "t4": "Inner Mongolia, China"
+    },
+    "ftr": {
+        "h1": {
+            "t1": "Product",
+            "t2": "Pricing",
+            "t3": "Data Center"
+        },
+        "h2": {
+            "t1": "Information",
+            "t2": "About Us",
+            "t3": "Contact Us"
+        },
+        "h3": {
+            "t1": "Support",
+            "t2": "Help",
+            "t3": "Privacy",
+            "t4": "Terms of Use"
+        },
+        "announce": "The information on this website does not convey an offer of any type and is not intended to be, and should not be construed as, an offer to sell, or the solicitation of an offer to buy, any securities, commodities, or other financial products. In addition, the information on this website does not constitute the provision of investment advice. No assurances can be made that any aims, assumptions, expectations, strategies, and/or goals expressed or implied herein were or will be realized or that the activities or any performance described did or will continue at all or in the same manner as is described on this website.",
+        "copyright": "© 2017-2018 Hash.Pro All Rights Reserved."
+    },
+    "status": {
+        "order": {
+            "pending": "Pending…",
+            "ended": "Ended",
+            "activated": "Activated"
+        },
+        "wallet": {
+            "pending": "Pending…",
+            "rejected": "Rejected",
+            "processing": "Processing",
+            "completed": "Completed",
+            "canceled": "Rejected",
+            "failed": "Rejected",
+            "suspend": "Completed",
+            "reviewed": "Pending…"
+        }
+    },
+    "home": {
+        "2": {
+            "h1": "Mining Hardware Worldwide",
+            "t1": "In order to provide our clients with safe and stable mining rigs, Hash.Pro is running datacenters worldwide.",
+            "b1": "Data Center",
+            "h2": "Transparent Account Statement",
+            "t2": "We share daily revenue detail, exchange rate and electricity cost with our clients, so as to make the daily profit transparent to every client.",
+            "b2": "Learn More",
+            "h3": "Mining Different Cryptocurrencies",
+            "t3": "We have various cryptocurrency mining hardwares specified in Bitcoin, Litecoin, Ethereum, Dash, Monero, and Zcash.",
+            "b3": "See Pricing",
+            "h4": "User Friendly Dashboard",
+            "t4": "Our management system is super handy, clients can check their daily updates and withdraw profits through computers or mobile phone .",
+            "b4": "Dashboard"
+        },
+        "3": {
+            "h1": "Per {minpurchase}",
+            "h2": "Minimum Purchase:",
+            "h3": "Daily Fee:",
+            "h3c1": "・Daily fee is for covering electricity and maintenance costs.<br/>\n・Daily fee is deducted from daily revenue.<br/>\n・Contract will end if daily fee exceeds revenue for 30 consecutive days.",
+            "h4": "MINING CONTRACT",
+            "h5": "Current Daily Profit",
+            "h5c1": "・This includes daily fee for cloud mining.<br/>\n・The calculation is based on current {coinname} difficulty and price.",
+            "h6": "SOLD OUT",
+            "b1": "BUY NOW",
+            "b2": "JOIN WAITING LIST"
+        },
+        "4": {
+            "t1": "Why Choosing Hash.Pro?",
+            "t2": "Competitive Bitcoin Mining Contract",
+            "s1": "Contract Time",
+            "s2": "1000GH/s Price",
+            "s3": "Daily Fee",
+            "s4": "Current Daily Profit",
+            "s5": "Current Daily ROI",
+            "s6": "The calculation is based on current Bitcoin mining revenue per 1TH/s on BTC.com and the Bitcoin price on Bitfinex. <br/>Last update: {timing}\n",
+            "s7": "Update: {updatetime}"
+        },
+        "5": {
+            "h1": "Mining with Hash.Pro",
+            "h2": "Having a Contract or Having Your Own Hardware",
+            "h1c1": "Mining with",
+            "h1c2": "Hash.Pro",
+            "h2c1": "Having Your",
+            "h2c2": "\nOwn Miner",
+            "h3c1": "One-time price of purchasing the contract and start mining right-away!",
+            "h3c2": "Low electricity expense.",
+            "h3c3": "We guarantee 7*24 uptime and cover system downtimes by using our own miners.",
+            "h3c4": "No extra fee on cooling.",
+            "h3c5": "Hardwares are at a remote location to avoid excessive heat.",
+            "h3c6": "Hardwares are at a remote location to avoid loud noise.",
+            "h4c1": "Purchasing hardware, paying for shipping costs and possible custom costs. Losing days or even weeks on delivery while your purchased hardware is losing its value.",
+            "h4c2": "High electricity rates.",
+            "h4c3": "Loss of mining time due to system downtimes.",
+            "h4c4": "Cost of cooling.",
+            "h4c5": "Excessive heat.",
+            "h4c6": "Loud noise."
+        }
+    },
+    "errors": {
+        "cart/wait": {
+            "200": "We will notify you by email once we start selling again."
+        },
+        "api/feedback": {
+            "200": "Your ticket has been successfully submitted, we will answer you as soon as possible."
+        },
+        "/wallet/withdraw": {
+            "200": "Withdraw request sent successfully!",
+            "6005": "Withdraw amount should be larger than {withdraw_min_amount}",
+            "6008": "Please enter the payout address",
+            "6010": "You cannot withdraw more than the available balance.",
+            "btn1": "Go to set up",
+            "btn2": "Cancel"
+        },
+        "/auth/resend_activation_email": {
+            "200": "An activation email has been sent to your email address."
+        },
+        "auth/activation": {
+            "200": "Your account has been activated successfully!",
+            "2001": "Your account has been activated successfully!"
+        },
+        "/user/password/reset": {
+            "200": "Your password has been reset successfully!",
+            "2010": "Old password is incorrect",
+            "2012": "Please undertake a verification of human-computer interaction"
+        },
+        "twostepverify": {
+            "9999": "Invalid authentication code"
+        },
+        "/google2step/validate": {
+            "3023": "Invalid authentication code",
+            "3024": "Invalid authentication code"
+        },
+        "user/setting": {
+            "200": "Your {cointab} payout address has been updated successfully!",
+            "2010": "Invalid password"
+        },
+        "/payment/paycoin": {
+            "3000": "Inventory shortage",
+            "3002": "The amount must be larger than the minimum purchasing amount. "
+        },
+        "auth/register": {
+            "200": "Please check your email and click on the verification link to activate your registration.",
+            "2009": "Email registered, please login",
+            "2012": "Please undertake a verification of human-computer interaction"
+        },
+        "auth/login": {
+            "2008": "Invalid email or password",
+            "2010": "Invalid email or password",
+            "2012": "Please undertake a verification of human-computer interaction"
+        },
+        "auth/forget_password": {
+            "200": "Email has been sent",
+            "2008": "Email is not registered",
+            "2012": "Please undertake a verification of human-computer interaction."
+        },
+        "auth/reset_password": {
+            "2006": "The activation email has expired, please request a new activation email. ",
+            "2007": "The activation email has expired, please request a new activation email. "
+        },
+        "/google2step/active": {
+            "201": "two-factor verification is active"
+        },
+        "/google2step/cancel": {
+            "201": "two-factor verification is turned off"
+        }
+    },
+    "pricing": {
+        "h1": "Select Amount",
+        "t1": "{stockremaining} Stock Remaining",
+        "t2": "per {minunit}",
+        "t3": "Daily maintenance and electricity expense:",
+        "t4": "Current daily profit: ",
+        "btn": "PROCEED"
+    },
+    "purchase": {
+        "h1": "Purchase  "
+    },
+    "message": {
+        "h1": "Message"
+    },
+    "dc": {
+        "h1": "Mining Hardware Worldwide",
+        "t1": "In order to provide our clients with safe and stable mining rigs, Hash.Pro is running datacenters worldwide."
+    },
+    "blog": {
+        "btn1": "Read more",
+        "h1": "Recent Posts",
+        "t1": "Click to share this post"
+    },
+    "au": {
+        "h1": "About Us",
+        "t1": "Hash.Pro team members have started entering into the cryptocurrency area since 2013, then founded the cloud mining company in 2017. Hash.Pro is running datacenters in different places across Asia and North America, managing tens of thousands of Bitcoin mining machines and other cryptocurrency mining hardware with 300 petahash per second. Hash.Pro is dedicated to providing a multi-language and all cryptocurrencies hashpower platform.",
+        "h2": "Contact Us",
+        "h3": "Sales Manager",
+        "h4": "Help",
+        "h5": "For bulk purchase",
+        "h6": "Customer Service"
+    },
+    "cs": {
+        "h1": "Top Questions",
+        "h2": "Need more help？",
+        "h3": {
+            "1": "Contact Customer Service",
+            "2": "Your name",
+            "3": "Name",
+            "4": "Your email",
+            "5": "Email",
+            "8": "Question?",
+            "9": "Question"
+        },
+        "btn1": "SUBMIT",
+        "btn2": "Cancel"
+    },
+    "db": {
+        "db": {
+            "h1": "Hashpower",
+            "h2": "Estimated revenue of Today",
+            "h3": "All Times Profit",
+            "h4": "Profit for last 14 days",
+            "q1": "What causes the increase and decrease of daily profit?"
+        },
+        "wat": {
+            "h1": "My Balance",
+            "h2": "View details",
+            "h3": "Value in USD: ",
+            "h1c1": "Coin",
+            "h1c2": "Total",
+            "h1c3": "Available",
+            "h1c4": "On Hold",
+            "h1c5": "Action",
+            "h1c6": "Withdraw",
+            "h1c7": "Address",
+            "h1c10": "Withdraw Amount",
+            "h1c8": "Fee",
+            "h1c9": "Amount to Receive",
+            "b1": "WITHDRAW",
+            "b2": "See More",
+            "T1": "Tips",
+            "T2": "・Minimum withdrawal amount: {coin_minamount}. <br/>\n・Please make sure that your computer and browser are secure and your information is protected from being tampered or leaked.",
+            "h4": "Recent Withdraw",
+            "h4c1": "View Details",
+            "h4c2": "Time",
+            "h4c3": "Coin",
+            "h4c4": "Amount",
+            "h4c5": "Status"
+        },
+        "wath": {
+            "h1": "Withdraw History"
+        },
+        "watd": {
+            "h1": "Account Detail",
+            "h1c1": "All",
+            "h1c2": "Time",
+            "h1c3": "Coin",
+            "h1c4": "Amount",
+            "h1c5": "Remarks",
+            "h1c6": "Type",
+            "popularize": "Profit   ",
+            "brokerage": "Referral Bonus",
+            "revenue": "Revenue",
+            "dailyFee": "Daily Fee",
+            "withdraw": "Withdraw",
+            "pay": "Buy "
+        },
+        "mo": {
+            "h3": "My Orders",
+            "h1": "Your miners are ready. <br/>Set up your account now and you can start to earn your first coins!",
+            "h3c1": "Date",
+            "h3c2": "Order ID",
+            "h3c3": "Contract Time",
+            "h3c4": "Hashpower",
+            "h3c6": "Amount",
+            "h5": "Order ID ",
+            "h6": "Status",
+            "h3c7": "Open-Ended",
+            "h3c5": "{contracttimeLeft}/{contracttimeAll} days"
+        },
+        "aft": {
+            "h1": "Referral",
+            "h2": "Gain free promotion upgrades with each ascending Referral rank. <br/>Your rank is {ranklevel} and you have accumulated ${ranktotal} in sales! You next rank will be unlocked with ${nextranktotal} in successful referrals.",
+            "h1c1": "YOUR RANK",
+            "h1c2": "NEXT RANK",
+            "h1c3": "{bonus}% Bonus",
+            "h1c4": "You will gain {bonus}% bonus with every new sale.",
+            "h1c5": "This is the entry level.",
+            "h1c6": "Unlock the previous tier to get further details.",
+            "h1c7": "${0} / ${100} COMPLETED",
+            "h3": "Referral Hits",
+            "h4": "Today",
+            "h5": "Yesterday",
+            "h6": "This Month",
+            "h7": "Last Month",
+            "h3c1": "Your referral code and link",
+            "h3c2": "Hits",
+            "h3c3": "Registered users",
+            "h4c4": "Paid users",
+            "h8": "About referral program",
+            "h9": "Share the code with any person you’d like - friends, family, or followers. \nThey’ll get a 3% discount on their purchase, and you’ll get a corresponding referral bonus.",
+            "h10": "My Bonus",
+            "h10c1": "Date",
+            "h10c2": "User",
+            "h10c3": "Amount",
+            "h10c4": "Bonus",
+            "h10c5": "Status",
+            "pending": "Pending…",
+            "paid": "Paid"
+        },
+        "st": {
+            "h1": "General",
+            "b1": "Edit",
+            "h2": "Security",
+            "b2": "Resend email",
+            "h1c1": "Newsletter",
+            "h1c2": "Receive Our Newsletters",
+            "h1b1": "Edit",
+            "h3": "Payout address",
+            "h4": "Change password",
+            "h4c1": "Old password",
+            "h4c2": "New password",
+            "h4c3": "Confirm new password",
+            "h7": "Two-factor Authentication",
+            "h7c1": "Enable Two-factor Authentication",
+            "h7c2": "How to Enable Two-factor Authentication<br>\n1. Install Google Authenticator to your smartphone (Apple, Android)<br/>\n2. Open Google Authenticator, click \"Add an account\" / \"Scan QR code”.<br/>\n3. Scan the QR code below (and optionally backup the generated secret key).\n(Click to see URI form of the QR code)<br/>\n4. Enter the generated one-time password into this form.",
+            "h7c3": "Two-factor Authentication code",
+            "h7c4": "Disable Two-factor Authentication",
+            "h6": "Update payout address",
+            "verifyemail": "Please verify your email first",
+            "bt1": "Go to set up",
+            "bt2": "Cancel"
+        },
+        "bh": {
+            "s1": "Select Amount",
+            "s2": "Payment Method",
+            "s3": "Make Payment",
+            "h1": "Confirm Order",
+            "h1c1": "Contract",
+            "h1c2": "Amount",
+            "h1c3": "Contract Time",
+            "h1c4": "Daily Fee",
+            "h1c5": "(Deducted from daily revenue)",
+            "h1c6": "Order Amount",
+            "h1c7": "Discount",
+            "h1c8": "Referral code",
+            "h1c9": "per",
+            "h1b1": "CONFIRM",
+            "h2": "Order Detail",
+            "h2c1": "Order ID",
+            "h2c2": "Order Amount",
+            "h2c3": "Discount",
+            "h2c4": "Total Amount",
+            "h2c5": "Payment Method",
+            "h2c6": "Total Amount",
+            "h2b1": "BUY NOW",
+            "h4": "Payment Countdown {0}m {1}s",
+            "h4c1": "Please use your cryptocurrency wallet to finish this payment within 60 minutes.",
+            "h4c2": "Order ID",
+            "h4c3": "Payment Method",
+            "h4c4": "Total Amount",
+            "h4c5": "Scan QR-Code here to finish the payment.",
+            "h4c6": "Or make payment directly to this address:",
+            "h5": "Time Out",
+            "h5c2": "If you encounter any problem, please contact <a href='mailto:support@datafountain.cn'> support@datafountain.cn</a> or <a href='../purchasing-power'>TRY AGAIN</a>.",
+            "h6": "Congratulations!",
+            "h6c1": "Payment Confirmed! Check your hashpower in  <a href='../dashboard'>DASHBOARD</a>.",
+            "h7": "Confirm Order",
+            "h7c1": "Terms and Conditions (short version)",
+            "btn3": "VIEW MY ORDER",
+            "h7c2": "Contract will end if fees exceed revenue for 30 consecutive days.",
+            "h7c3": "If revenue is lower than fees, then fees will be reduced to prevent you from having a negative balance.",
+            "h7c4": "View <a href='/termsOfUse.pdf' target='_blank'>Full Terms and Conditions</a >",
+            "h7b1": "I HAVE PAID",
+            "h8": "Waiting for network confirmation…",
+            "h8c1": "This transaction requires 1 network confirmation, 0 confirmation has already completed, this process usually takes 20 minutes. There is no need to wait at this page, your hashpower will be active immediately once this payment is confirmed.",
+            "h9": "Your transaction is in process, waiting for confirmation {0}m {1}s",
+            "h10": "More payment method is coming soon."
+        }
+    },
+    "toast": {
+        "withdraw": {
+            "e1": "Please enter the amount you want to withdraw"
+        },
+        "walletwithdraw": {
+            "title": "Confirm withdraw\n",
+            "confirm": "Apply Time:{time}<br/>\nWithdraw Amount: {withdraw_amount}<br/>\nFee:{fee}<br/>\nAmount to Receive:{withdraw_amount_fee}<br/><br/>\n\nDo you confirm the withdraw? It is an irrevocable process and will be completed within 24 hours."
+        },
+        "copy": {
+            "e1": "Copied {path}",
+            "bh": "Copied"
+        },
+        "reset_password": {
+            "e1": "Invalid password format- (password must be between 6 to 20 characters long)",
+            "e2": "Password does not match the confirm password",
+            "e3": "Invalid password format",
+            "e4": "Password and the Confirm password do not match"
+        },
+        "user/setting": "invalid payout address",
+        "register": {
+            "e1": "Invalid email address",
+            "e2": "Invalid password",
+            "e3": "Password does not match the confirm password",
+            "e4": "Wrong Password Format (must be between 6 to 20 characters long)"
+        },
+        "forget_password": {
+            "e1": "Invalid email address"
+        },
+        "payment": {
+            "e1": "Payment successful",
+            "e2": "Payment failed"
+        }
+    },
+    "wallet": {
+        "withdraw": {
+            "confirmbtn1": "CONFIRM",
+            "confirmbtn2": "Cancel"
+        }
+    },
+    "sl": {
+        "su": {
+            "h1": "Sign up",
+            "h1c1": "Email address",
+            "h1c3": "Password",
+            "h1c4": "Confirm Password",
+            "h1c5": "I accept Hash.Pro <a href='/termsOfUse.pdf' target='_blank'>Terms and conditions</a >.",
+            "b2": "CREATE ACCOUNT",
+            "b1": "LOGIN"
+        },
+        "rs": {
+            "h2": "Reset Password",
+            "h1": "Recover your password via email",
+            "b1": "RESET"
+        },
+        "lo": {
+            "h1": "Login",
+            "h2": "Lost your password?",
+            "h3": "Reset password",
+            "b2": "SIGN IN",
+            "b1": "SIGN UP"
+        },
+        "btn": {
+            "cancel": "Cancel"
+        },
+        "ta": {
+            "h1": "Two-factor Authenticaiton",
+            "h2": "Two-factor Authentication code"
+        }
+    },
+    "Help": {
+        "ARP": {
+            "q1": "What is the referral program?",
+            "a1": "Users can get Bitcoin bonus via Hash.Pro's referral program, and the actual bonus amount depends both on the contract purchasing amount and the user's proper referral rank. Meanwhile, the invited users will get a 3% of discount rate when they buy the hashpower contract, this is a win-win business model!\n\nThe distribution of payout is scheduled as the following:<br/> \n\n・Contract paid by cryptocurrencies: in 48 hours.<br/>\n・Contract purchased by creditcard and PayPal: in 4 days.<br/>\n\nThe referral bonus will be sent to your Hash.Pro wallet after the above mentioned period, and you can transfer to any personal wallet once they are credited into your account. \n\nIf you have special referral channel, please don't hesitate to contact us through email: partner@datafountain.cn. We would be pleased to work with you to promote the cryptocurrency to a greater success.  ",
+            "q4": "How to use the referral code?",
+            "a4": "We encourage you to share your referral code through your social network, anyone, including your friend, family or followers, if they purchase the hosted hashpower with your referral code, they will get a discount of 3%, and you wiill receive corresponding referral bonus. ",
+            "q2": "How much is the referral bonus?",
+            "a2": "The number of Bitcoins that we give you as referral bonus is closly related to your rank and the purchased amount of your invited friends. For example, if your rank's corresponding bonus rate is 3%, when your invited friend made a $100 hashpower purchasing, you will get $3 bonus in Bitcoin. The bonus payout will be calculated at the USD/BTC exchange rate at Bitfinex Exchange at 12:00 (GMT+8) of the distribution day. ",
+            "q3": "What is the referral rank?",
+            "a3": "The referral rank is determined by the accumulated purchasing amount of your invited friends whithin 180 days period. \nYour starting rank is the 1st level, when the purchasing amount reaches $100 within 180 days, your rank will be upgraded to the 2nd level, the more you promote, the higher your rank will be and the more rewards you will receive. \nSince that your referral rank reflects your referral performance during the past 180 days, it is possible that your rank could be degraded. \nThe system will calculate the referral bonus at 12:00 (GMT+8) on a daily basis, you may want to look at your rank, referral amount and rewards at our Referral page. ",
+            "q5": "What are the differences btween referral code and referral link?",
+            "a5": "You can receive rewards by promoting both your referral code and link, the referral code can be used for new and old accounts, you just need to enter it when you purchase the contract!\nPlease note--the referral code always has a higher priority order than referral link. You are not allowed to get double rewards by using referral code and referral link, only the users who inputs the referral code can get rewards. ",
+            "q6": "Why didn't I receive the referral bonus?",
+            "a6": "Depending on the method of payment, your referral bonus will be balanced for: <br/>\nBuying the contract by cryptocurrency: 48hours.<br/>\nBuying the contract by credit card or PayPal: 14 days.<br/>\nPlease remember that the referral bonus calculation is based on the USD/BTC price at Bitfinex everyday at noon 12:00 (GMT+8).<br/>\nHowever, you can see your bonus in your referral page in a Pending status. ",
+            "q7": "Can I use my own referral code while making a purchase?",
+            "a7": "You are not allowed to use your own referral code to purchase, in that case there will not be discount neither referral bonus. "
+        },
+        "TQ": {
+            "q1": "What is Hash.Pro?",
+            "a1": "Our team members are early investors of cryptocurrency, they started Mining cryptocurrencies since 2016, then founded the cloud mining platform Hash.Pro in 2017, we are running cryptocurrency datacenters in Asia and North America. We are offering cryptocurrency hashpower leasing services for clients across the world. ",
+            "q6": "How does the mining generate profit?",
+            "a6": "The mining is about collect rewards by providing computing power for cryptocurrency network. A daily rewards minus the necessary maintenance costs (including electricity expenses, maintenance and host fees), is the profit of mining. ",
+            "q2": "Why choose Hash.Pro?",
+            "a2": "Hash.Pro is providing stable hashpower for cryptocurrency enthousiats, we only charge a very cheap contract price and maintenance fee, it is an excellent choice for hashpower enthousiats across the world. You can see more details at our website homepage.",
+            "q7": "What are the expected returns of mining?",
+            "a7": "The revenue of cryptocurrency mining depends on the prices and network difficulties of the Cryptocurrencies that you are mining, which cannot be predicted.  We have indicated the current daily ROI at our Pricing page, but it does not necessarly represent an expection on your revenue, therefore, we recommend all our clients to do their own research and do their own performance calculation. For example, it might be a helpful to look at <a href='http://coinwarz.com' target='_blank'>coinwarz.com</a>. Please remember that some of our products have a daily maintenance fee which must be deducted from the daily mining revenues.\nPlease note this website is a thrid-party resource, which has no relationship with Hash.Pro.\n",
+            "q5": "What if there is a system downtime and power interruption?",
+            "a5": "First of all, Hash.Pro adoptes a high maintenance standard for all its datacenters, however it is always possible that mining hardware slows down or completely breaks, or encounters an electricty power interruption. In all these cases, we will allocate automatically our backup datacenters and mining rigs to ensure our clients 7*24 hours' revenue, so that our clients will not take any losses.",
+            "q4": "Which mining pool is the Hash.Pro using for mining?",
+            "a4": "To respect the decentralized principle, Hash.Pro will use various pools to undertake the mining. But once we find that one particular pool possess almost 50% hashpower of the whole network, we will switch to other pools. ",
+            "q3": "Isn't buying the hardware cheaper than hosted mining?",
+            "a3": "It seems that buying miner is cheaper than hosted mining, however, a great number of client did not realize the hidden costs mining at home, including: shipping costs, customs dues, cooling costs and maintenance fees. In addition, if you host your mining with Hash.Pro, you may have a lower electricity costs, if here is a damaged mining rigs or power outrage, Hash.Pro will cover it with backup datacenters and replace the damaged equipements. If you compare the effective revenue, you will find that our Contract price is very competitive. ",
+            "q9": "How does the daily profit caclulate?",
+            "a9": "The calculation of mining profit is complicated, for example:\nIf you might want to mine Bitcoin,\nThe current dialy profit = The current daily mining revenue - daily maintenance fee of the contract/Bitcoin price\nwhere the current daily profit is related to the mining pool that we use, there might be a small difference with other exchanges, you can look at <a href='http://coinwarz.com' target='_blank'>coinwarz.com</a> for more details. While the Bitcoin price will be calculated based on the BTC/USD exchange rate at Bitfinex at 12:00 GMT+8 on a daily basis. ",
+            "q11": "When do I get mining revenue?",
+            "a11": "Every mining day at 12:00 (GMT+8), the system will caculate automatically the profit of the previous day and you mining profit will be transferred to your wallet.<br/> \nIn case that you just purchased a hashpower contract, depending on the method of payment you choose, your mining outputs will be balanced for:<br/>\nCryptocurrency: 48 hours;<br/>\nCredit card or PayPal: 14 days.<br/>\nHowever, you can see your revenue in your wallet detail in a Pending status. ",
+            "q8": "When will the mining contract end?",
+            "a8": "Each contract has different contract times, ranging from 1 year to 3 years. Besides, according to the contract, when the daily mining revenue is smaller than the daily maintenance for a consecutive time, your contract might be ended as well, please refer to your contract for more details.",
+            "q10": "What is the maintenance fee?",
+            "a10": "The daily maintenance fee consists of daily electricity expenses, repaire fee and hosting services fee, you will find the maintenance fee details in the Terms of Use of your chosen contract.",
+            "q12": "What causes the increase and decrease of my daily profit?",
+            "a12": "The cryptocurrency's mining profit depends on the difficulty and the price of the mining coins., the deail of the calculation is the following:\nCurrent profit of day = current daily mining revenue-daily maintenance fee/cryptocurrency's price.\nWhere the current revenue of day varies with the network difficulty, and the price determines the percentage of daily maintenance fees in the formula. For more detail, please look at <a href='http://coinwarz.com' target='blank'>coinwarz.com</a>.",
+            "q19": "What is the Referral Program?",
+            "a19": "All the Hash.Pro customers can participate in our Referral program and promote hosted hashpower to their friends, and earn rewards. For more information, please see the link: <a href='https://datafountain.cn/dashboard/referral' target='_blank'>https://datafountain.cn/dashboard/referral</a>",
+            "q16": "Can I get a refund?",
+            "a16": "As specified in the contract, we do not offer refunds once your purchased our Contract.",
+            "q15": "Why does my hashpower decrease?",
+            "a15": "It is probably because your contract has expired or there is no profit for a consecutive period, so the contract has ended. ",
+            "q17": "How can I change my email address?",
+            "a17": "For security reason, we only provide password resetting services through email and manual verification, please contact our custorm service team who would be happy to resolve your problem.",
+            "q18": "I forgot my two-factor verification code, what should I do?",
+            "a18": "For security reason, you can only cancel it through manual verification and two-factor verification code, please contact our customer service team and they would be glad to help you out. ",
+            "q14": "What is the minimum withdraw amount?",
+            "a14": "The minimum withdraw amount is $50, the amount is calculated based on the current cryptocurrency's price at the date of withdraw. ",
+            "q13": "When can I withdraw my mined profit and referral bonus?",
+            "a13": "You can withdraw your coins to any address or wallet at any time. Please refer to our minimum withdraw amount policy. "
+        }
+    }
+}

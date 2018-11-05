@@ -1,0 +1,174 @@
+@mixin font_14{
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+}
+@mixin font_ligiht{
+
+}
+@mixin font_bold{
+    @include font_14;
+}
+
+header{
+    margin-bottom: 25px;
+    .img_logo{
+        margin:0 -100px 37px -100px;
+        img{
+            display: block;
+            margin:0 auto;
+        }
+    }
+    .pc{
+        .login_title{
+            text-align: center;
+            font-size: 15px;
+            h4{
+                margin-bottom: 7px;
+            }
+            p{
+                font-size: 13px;
+                color: #ebebec;
+            }
+        }
+    }
+    .m{
+        .login_title{
+            text-align: left;
+            font-size: 15px;
+            h4{
+                margin-bottom: 7px;
+            }
+            p{
+                font-size: 13px;
+                color: #ebebec;
+            }
+        }
+    }
+}
+.login_content{
+    margin-bottom: 9px;
+    .input{
+        input{
+            width: 220px;
+        }
+    }
+    .agree{
+        margin:-5px 0 16px 0;
+        text-align: left;
+        font-size: 12px;
+        a{
+            // display: inline-block;
+            padding-bottom:2px;
+            font-size: 12px;
+            font-weight: 300;
+            line-height: 8px;
+            border-bottom:1px solid #fff;
+        }
+    }
+}
+footer{
+    .app_button{
+        width:100%;
+        margin-bottom: 20px;
+    }
+}
+
+.login{
+    width: 220px;
+    margin: 0 auto;
+
+    .footer_href{
+        @include font_bold;
+        font-size: 14px;
+        a{
+            display: inline-block;
+            padding-bottom:2px;
+            line-height: 10px;
+            font-size: 14px;
+            border-bottom:1px solid #fff;
+        }
+        a:hover{
+            border-bottom:1px solid #00c6bc;
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    header{
+        margin-bottom: 16px;
+        .img_logo{
+            margin:0 -10px 44px -10px;
+        }
+    }
+    .login{
+        width:298px;
+    }
+    .login_content{
+        margin-bottom: 4px;
+        .input{
+            input{
+                width: 298px;
+            }
+        }
+        .agree{
+            margin:-5px 0 16px 0;
+            text-align: left;
+            font-size: 14px;
+            a{
+                font-size: 14px;
+            }
+        }
+    }
+}
+a:link {
+color:#FFFFFF;
+text-decoration:none;
+}
+a:visited {
+color:#FFFFFF;
+text-decoration:none;
+}
+a:hover {
+color:#00c6bc;
+text-decoration:none;
+}
+a:active {
+color:#FFFFFF;
+text-decoration:none;
+}
+
+.el-checkbox__inner{
+    //width:18px;
+    //height:18px;
+    background-color: transparent !important;
+    border-color: #fff !important;
+}
+.is-focus{
+    .el-checkbox__inner{
+        //background-color: red !important;
+        border-color: red !important;
+    }
+}
+.is-checked{
+    .el-checkbox__inner{
+        background-color: #00c6bc !important;
+        border-color: #fff !important;
+    }
+}
+
+.checkBoxStyle{
+    margin-right:8px;
+}
+
+.agree.error{
+    .is-focus{
+        .el-checkbox__inner{
+            //background-color: red !important;
+            border-color: red !important;
+        }
+    }
+    .el-checkbox__inner{
+        //background-color: red !important;
+        border-color: red !important;
+    }
+}

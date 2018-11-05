@@ -1,0 +1,3 @@
+LogRocket.getSessionURL(function (sessionURL) {
+
+});

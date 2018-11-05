@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="222" height="312" viewBox="0 0 222 312">
+    <defs>
+        <rect id="b" width="210" height="300" rx="4"/>
+        <filter id="a" width="110%" height="107%" x="-5%" y="-2.8%" filterUnits="objectBoundingBox">
+            <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="shadowSpreadOuter1"/>
+            <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+        </filter>
+        <rect id="c" width="210" height="300" rx="4"/>
+        <linearGradient id="d" x1="91.034%" x2="39.824%" y1="91.408%" y2="40.633%">
+            <stop offset="0%" stop-color="#52579C"/>
+            <stop offset="100%" stop-color="#4A2177"/>
+        </linearGradient>
+        <linearGradient id="f" x1="10.987%" x2="93.55%" y1="11.737%" y2="95.087%">
+            <stop offset="0%" stop-color="#9488C3" stop-opacity=".828"/>
+            <stop offset="100%" stop-color="#261469" stop-opacity=".887"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd" transform="translate(6 4)">
+        <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+        <use fill="#FFF" xlink:href="#b"/>
+        <rect width="210.5" height="300.5" x="-.25" y="-.25" stroke="#000" stroke-opacity=".2" stroke-width=".5" rx="4"/>
+        <mask id="e" fill="#fff">
+            <use xlink:href="#c"/>
+        </mask>
+        <use fill="#40375F" xlink:href="#c"/>
+        <rect width="210.5" height="300.5" x="-.25" y="-.25" stroke="#000" stroke-opacity=".2" stroke-width=".5" rx="4"/>
+        <path fill="url(#d)" d="M210 0v300H0C26.015 182.333 96.015 82.333 210 0z" mask="url(#e)"/>
+        <path fill="url(#f)" d="M210 0v300H0C26.015 182.333 96.015 82.333 210 0z" mask="url(#e)" opacity=".746" transform="rotate(180 105 150)"/>
+    </g>
+</svg>

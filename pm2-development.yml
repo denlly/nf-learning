@@ -1,0 +1,16 @@
+apps:
+  - script   : consumer.js
+    name: consumer
+    instances: 2
+    watch  : true
+    exec_mode: cluster
+    env    :
+      NODE_ENV: development
+
+  - script   : index.js
+    name: web
+    instances: 1
+    exec_mode: cluster
+    watch  : true
+    env    :
+      NODE_ENV: development

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="140" height="50" viewBox="0 0 140 50">
+    <g fill="none" fill-rule="evenodd">
+        <rect width="140" height="50" fill="#00C6BC" rx="4"/>
+        <text fill="#FFF" font-family="CircularAir-Bold, Circular Air" font-size="16" font-weight="bold">
+            <tspan x="43.734" y="31">Submit</tspan>
+        </text>
+    </g>
+</svg>

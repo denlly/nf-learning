@@ -1,0 +1,416 @@
+/* 全局CSS-Reset */
+html{
+    font-size: 14px;
+    -ms-text-size-adjust: none;
+    -webkit-text-size-adjust: none
+}
+body{
+    margin:0;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "hash", "PingFang SC", "Microsoft YaHei" !important;
+}
+
+input{
+        caret-color: #00c6bc;
+}
+body,button,img,input,optgroup,option,select,textarea {
+    /*font: 12px/1 "Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Heiti SC","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;*/
+    outline: 0;
+    border: none
+}
+
+:after,:before,a,blockquote,body,button,dd,div,dl,dt,em,fieldset,form,h1,h2,h3,h4,h5,h6,hr,i,iframe,img,input,label,lengend,li,ol,optgroup,option,p,pre,select,span,table,tbody,td,textarea,tfoot,th,thead,tr,ul {
+    margin: 0;
+    padding: 0
+}
+
+textarea {
+    resize: none;
+    overflow: auto
+}
+
+ol,ul {
+    list-style: none
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+article,aside,details,figcaption,figure,footer,header,main,menu,nav,section {
+    display: block;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both
+}
+/* M-CssReset */
+::-webkit-file-upload-button,[type=reset],[type=submit],button,html [type=button] {
+    -webkit-appearance: button
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+/*---------------*/
+
+/* 补充ElementUI 的样式 */
+    /* DatePicker 日期选择器 span */
+.demonstration {
+    display: block;
+    color: #8492a6;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+/*全局基础样式  */
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+a{
+    font-size: 15px;
+	font-weight: 500;
+}
+/* a:link {
+    color:#ffffff;
+    text-decoration:none;
+}
+a:visited {
+    color:#ffffff;
+    text-decoration:none;
+}
+a:hover {
+    color:#ffffff;
+    text-decoration:none;
+}
+a:active {
+    color:#ffffff;
+    text-decoration:none;
+} */
+
+
+/* 推广页面字体及字重 */
+@font-face {
+    font-family: hash;
+    src: url("../font-face/circular_air_book.ttf");
+}
+@font-face {
+    font-family: qianduanNet;
+    src: url("../font-face/circular_air_black.ttf");
+}
+@font-face {
+    font-family: CircularAirBlack;
+    src: url("../font-face/circular_air_black.ttf");
+}
+@font-face {
+    font-family: CircularAirLight;
+    src: url("../font-face/circular_air_light.ttf");
+}
+@font-face {
+    font-family: CircularAirBook;
+    src: url("../font-face/circular_air_book.ttf");
+}
+@font-face {
+    font-family: CircularAirMedium;
+    src: url("../font-face/circular_air_medium.ttf");
+}
+
+/* 数字及特殊字体需引入的样式 */
+.circularAirBlack{font-family: CircularAirBlack;}
+.circularAirLight{font-family: CircularAirLight;}
+.CircularAirBook{font-family: CircularAirBook;}
+.CircularAirMedium{font-family: CircularAirMedium;}
+
+/* 苹方字体 统一字重 */
+.fontPFultraLight{font-weight: 100;}
+.fontPFthin{font-weight: 100;}
+.fontPFlight{font-weight: 200;}
+.fontPFregular{font-weight: 300 !important;}
+.fontPFmedium{font-weight: 400;}
+.fontPFsemibold{font-weight: 500;}
+.fontPFbold{font-weight: 600;}
+
+/* 布局样式 */
+.marginCenter{margin:0 auto;}
+.marginTop30{margin-top:30px;}
+.marginTop40{margin-top:40px;}
+.marginBottom20{margin-bottom:20px;}
+.marginBottom30{margin-bottom:30px;}
+.marginBottom40{margin-bottom:40px;}
+
+.padding2020{padding:20px 20px;}
+.padding3040{padding:30px 40px;}
+.padding_4080{padding:40px 0 80px 0;}
+
+.bgWhite{background-color: #fff;}
+.bgF9{background-color: #F9F9F9;}
+.contentAll{background-color: #F9F9F9;}
+
+.width1776{margin:0 auto;max-width: 1176px;}
+.borderNone{border:none;}
+.baseContent{max-width: 1176px;}
+
+/* Base Layout */
+.common_outer1{
+    padding:40px 0 80px 0 ;
+}
+.common_outer2{
+    padding:40px 0 80px 0 ;
+    background-color: #F9F9F9;
+}
+.common_contariner{
+    margin:0 auto;
+    max-width:1176px;
+}
+
+/* 正式页面字重 */
+.fontwight_normal{font-weight: normal;}
+.fontwight_blod{font-weight: bold;}
+.fontwight100{font-weight: 100;}
+.fontwight200{font-weight: 200;}
+.fontwight300{font-weight: 300;}
+.fontwight400{font-weight: 400;}
+.fontwight500{font-weight: 500;}
+.fontwight600{font-weight: 600;}
+
+
+/* Reset el-tabs__header to 0 && Do not Delete!!! */
+.el-tabs__header {
+    margin-bottom: 0;
+}
+.el-tabs__item{
+    padding:16px 23px;
+    height:52px;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    color:#fff;
+    background-color: #757575;
+}
+.el-tabs__item span{
+    display: block;
+}
+.el-tabs--card>.el-tabs__header .el-tabs__item.is-active{
+    border-bottom-color: #D8D8D8;
+}
+.el-tabs__item.is-active{
+    color:#000;
+    background-color: #D8D8D8;
+}
+.el-tabs__item:hover {
+    color: #409EFF;
+    cursor: pointer;
+}
+
+/* 弹窗Slot公共样式 */
+.masklayer{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 9;
+    width: 100VW;
+    height:100VH;
+    background-color: rgba(0,0,0,0.4);
+}
+.formtitle{
+    margin-bottom:16px;
+    font-size: 18px;
+    line-height: 22px;
+    color:#7b7494;
+}
+.formcontent{
+    margin-top:18px;
+    margin-bottom:48px;
+    font-size: 18px;
+    line-height: 22px;
+    color:#7b7494;
+}
+.forminput{
+    display: block;
+    margin-bottom:48px;
+    padding-left:16px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border: solid 0.5px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    line-height: 50px;
+    overflow: hidden;
+}
+.forminput input{
+    caret-color:#00c6bc;
+}
+.forminput input{
+    width:100%;
+    height:100%;
+    min-height:50px;
+    font-size: 14px;
+    /*line-height: 50px;*/
+}
+/* 两部验证样式 */
+.instructions{
+    font-size: 16px;
+    line-height: 22px;
+    color:#9490a5;
+}
+.codezone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:32px;
+    padding:31px 0 ;
+    border-top:1px solid #dbdbdb;
+    border-bottom:1px solid #dbdbdb;
+}
+.codeinput{
+
+}
+.codeinput_title{
+    margin-bottom:16px;
+    font-size: 18px;
+    line-height: 22px;
+    color:#9490a5;
+}
+.codeinput_input{
+    padding-left:22.1px;
+    width: 500px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border: solid 0.5px rgba(0, 0, 0, 0.2);
+    caret-color:#00c6bc;
+}
+.qrcodeimg{
+    margin-right:14px;
+    width:122px;
+    height:122px;
+    background-color: #dbdbdb;
+}
+#qrccode-canvas{
+    width:100% !important;
+    height:100% !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .table_layout{
+        box-sizing: content-box;
+        width: 1176px;
+        margin: 0 auto;
+        overflow: hidden;
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+}
+
+.captchaID>.geetest_holder:not(:last-child){
+    display: none !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .recaptcha_wrap>div>div{
+        margin:  0 auto !important;
+    }
+    .captchaID .geetest_holder{
+        width: 100% !important;
+    }
+}
+
+/* 20180704 导航添加 购买产品 页面需求的外层盒子 */
+.step-block{
+    display: block;
+    margin:0 auto;
+    max-width: 1176px;
+}
+
+/* 人机验证样式 */
+.recaptcha_wrap{
+    padding: 48px 0;
+}
+
+/* 数字及特殊字体需引入的样式 */
+.circularAirBlack{font-family: CircularAirBlack;}
+.circularAirLight{font-family: CircularAirLight;}
+.CircularAirBook{font-family: CircularAirBook;}
+.CircularAirMedium{font-family: CircularAirMedium;}
+
+/* 正式版本字重 */
+.finalFWBBold{font-weight: bold !important;}
+.finalFWNormal{font-weight: normal !important;}
+.finalFWB100{font-weight: 100 !important;}
+.finalFWB200{font-weight: 200 !important;}
+.finalFWB300{font-weight: 300 !important;}
+.finalFWB400{font-weight: 400 !important;}
+.finalFWB500{font-weight: 500 !important;}
+.finalFWB600{font-weight: 600 !important;}
+.finalFWB700{font-weight: 700 !important;}
+
+.fontSpecialFamily{
+    font-family: "CircularAirLight", "PingFang SC", "Microsoft YaHei" !important;;
+}
+.fontSpecialWeight{
+    font-weight: bolder;
+}
+/* 解决苹果手机点击无效问题 */
+@media only screen and (max-width: 768px){
+    body{
+        cursor: pointer;
+    }
+}
+/* ElemtnUI 栅格底色   可删除 */
+.el-row {
+    margin-bottom: 20px;
+}
+.el-row:last-child {
+    margin-bottom: 0;
+}
+.el-col {
+    border-radius: 4px;
+}
+.bg-purple-dark {
+    background: #99a9bf;
+}
+.bg-purple {
+    background: #d3dce6;
+}
+.bg-purple-light {
+    background: #e5e9f2;
+}
+.grid-content {
+    border-radius: 4px;
+    min-height: 36px;
+}
+.row-bg {
+    padding: 10px 0;
+    background-color: #f9fafc;
+}

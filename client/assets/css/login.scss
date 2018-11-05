@@ -1,0 +1,130 @@
+a:link {
+    color:#00c6bc;
+    text-decoration:none;
+}
+a:visited {
+    color:#00c6bc;
+    text-decoration:none;
+}
+a:hover {
+    color:#00c6bc;
+    text-decoration:none;
+}
+a:active {
+    color:#00c6bc;
+    text-decoration:none;
+}
+hr{
+    border: solid .5px #dbdbdb;
+}
+.table_layout{
+    // background: #ffffff;
+}
+@mixin inputBase{
+    h4.title{
+        font-size: 18px;
+        color: #7b7494;
+        padding-bottom: 16px;
+    }
+    input.input{
+        width: 100%;
+        height: 50px;
+        font-size: 14px;
+        box-sizing: border-box;
+        line-height: 1;
+        caret-color: #00c6bc;
+    	border-radius: 4px;
+        padding-left: 16.5px;
+    	background-color: #ffffff;
+    	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+    	border: solid 0.5px rgba(0, 0, 0, 0.2);
+    }
+    input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+        font-size: 14px;
+    	font-weight: 500;
+        color: #c2c2c2;
+    }
+    input::-moz-placeholder, textarea:-moz-placeholder {
+        font-size: 14px;
+    	font-weight: 500;
+        color: #c2c2c2;
+    }
+    input::-ms-input-placeholder, textarea:-ms-input-placeholder {
+        font-size: 14px;
+    	font-weight: 500;
+        color: #c2c2c2;
+    }
+}
+
+
+
+$boxPadding:48px;
+.sec_input{
+    .input_wrap{
+        @include inputBase;
+        margin-top: 32px;
+    }
+    .reset_password{
+        font-size: 18px;
+        color: #2f2c37;
+        margin-top: 16px;
+        .href{
+            color:#00c6bc;
+            cursor: pointer;
+        }
+    }
+    .recaptcha_wrap{
+        padding: $boxPadding 0;
+    }
+}
+.foot_wrap{
+    padding-top: $boxPadding;
+    .checkbox_wrap{
+        float: left;
+        transform: translateY(17px);
+        display: flex;
+        .radio_wrap{
+            padding-right: 16px;
+        }
+        .radio{
+            transform: translateY(-1px);
+        }
+        .text{
+            font-size: 16px;
+            color: #7b7494;
+        }
+    }
+    .app_button.large{
+        float: right;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+    .foot_wrap{
+        padding-top: 0;
+        .checkbox_wrap{
+            float: none;
+            padding-top: $boxPadding;
+            transform: translateY(0);
+        }
+        .app_button.large{
+            float: none;
+            margin: 0 auto;
+            display: block;
+            margin-top: 32px;
+        }
+    }
+    .g-recaptcha>div{ // 人机验证
+        margin:  0 auto !important;
+    }
+    .setting{
+        padding-bottom: 0 !important;
+        border-bottom: none !important;
+    }
+
+}
